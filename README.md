@@ -2,6 +2,24 @@
 ## Visão Geral:
 Nossa aplicação requer uma estrutura de banco de dados robusta que possa representar e gerenciar eficientemente as relações entre entidades. Para isso, aplicamos os princípios de relacionamento 1:N e N:N.
 
+## Tabelas Principais
+organizacao: Armazena propriedades específicas às instituições.
+
+usuario: Registra dados de usuários que apenas um cadastro possui.
+
+postagem: Registra informações das postagens.
+
+comentario: Registra comentarios feitos na plataforma.
+
+
+## Tabelas Auxiliares
+
+foto_perfil: Registra link (imgur provavelmente) para foto de usuários.
+
+tipo: Registra as possíveis categorias de instituição.
+
+voluntariado: Relação usuários e ações.
+
 
 ## usuario-foto_perfil:
 
