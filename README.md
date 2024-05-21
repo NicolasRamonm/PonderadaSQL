@@ -2,6 +2,11 @@
 ## Visão Geral:
 Nossa aplicação requer uma estrutura de banco de dados robusta que possa representar e gerenciar eficientemente as relações entre entidades. Para isso, aplicamos os princípios de relacionamento 1:N e N:N.
 
+<div align="center">
+<img src='assets/modeloRelacional.png' alt='Modelo de base de dados'><br>
+</div>
+<br>
+
 ## Tabelas Principais
 organizacao: Armazena propriedades específicas às instituições.
 
